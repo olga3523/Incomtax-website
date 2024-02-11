@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+
+<body>
+    <section class="section-table container">
+        <h2 class="section-table__title">Individual Tax Organizer (Basic Varsion)</h2>
+
+        <div class="table-item" id="table-1">
+            <header class="table-header">
+                <h3 class="title row">Personal Information</h3>
+                <h4 class="description">You:</h4>
+            </header>
+
+            <div class="table-body">
+                <div class="row">
+                    <label class="tempalte-1 col">
+                        <span class="description">Name:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">Social Security Number:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="tempalte-1 col">
+                        <span class="description">Date of Birth:</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">Occupation:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="tempalte-1 col">
+                        <span class="description">Marital Status:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-1__marital-status" value="Single" />
+                            <span class="description">Single</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-1__marital-status" value="Married" />
+                            <span class="description">Married</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-1__marital-status" value="Divorced" />
+                            <span class="description">Divorced</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-1__marital-status" value="Legally separated" />
+                            <span class="description">Legally separated</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-1__marital-status" value="Widowed" />
+                            <span class="description">Widowed</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-item" id="table-2">
+            <header class="table-header">
+                <h4 class="description">Spouse:</h4>
+            </header>
+
+            <div class="table-body">
+                <div class="row">
+                    <label class="tempalte-1 col">
+                        <span class="description">Name:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">Social Security Number:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="tempalte-1 col">
+                        <span class="description">Date of Birth:</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">Occupation:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="tempalte-1 col">
+                        <span class="description">Phone Number:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">Email Address:</span>
+                        <input type="text">
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-item" id="table-3">
+            <header class="table-header">
+                <h4 class="description">Mailing Address:</h4>
+            </header>
+
+            <div class="table-body">
+                <div class="row">
+                    <label class="tempalte-1 col">
+                        <span class="description">Address:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">City:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">State:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="tempalte-1 col">
+                        <span class="description">Zip cods:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="tempalte-1 col">
+                        <span class="description">Did your address change:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-3__address-change" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-3__address-change" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+
+                    <div class="tempalte-1 col">
+                        <span class="description">Date changed:</span>
+                        <input type="date">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-table container">
+        <div class="table-item" id="table-4">
+            <header class="table-header">
+                <h3 class="title row">Dependents</h3>
+                <h4 class="description">Dependents 1:</h4>
+            </header>
+
+            <div class="table-body">
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Dependent's Name:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Social Security Number:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Date of Birth:</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Relationship:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Income (if over $4.400):</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Number of Months Resided in Home:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="tempalte-1 col">
+                        <span class="description">Was a full-time college student?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-4__full-time-college-student" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-4__full-time-college-student" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+
+                    <div class="tempalte-1 col">
+                        <span class="description">Did file his/her own return?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-4__file-own-return" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-4__file-own-return" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-item" id="table-5">
+            <header class="table-header">
+                <h4 class="description">Dependents 2:</h4>
+            </header>
+
+            <div class="table-body">
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Dependent's Name:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Social Security Number:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Date of Birth:</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Relationship:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Income (if over $4.400):</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Number of Months Resided in Home:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="tempalte-1 col">
+                        <span class="description">Was a full-time college student?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-5__full-time-college-student" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-5__full-time-college-student" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+
+                    <div class="tempalte-1 col">
+                        <span class="description">Did file his/her own return?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-5__file-own-return" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-5__file-own-return" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-item" id="table-6">
+            <header class="table-header">
+                <h4 class="description">Dependents 3:</h4>
+            </header>
+
+            <div class="table-body">
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Dependent's Name:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Social Security Number:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Date of Birth:</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Relationship:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Income (if over $4.400):</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Number of Months Resided in Home:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="tempalte-1 col">
+                        <span class="description">Was a full-time college student?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-6__full-time-college-student" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-6__full-time-college-student" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+
+                    <div class="tempalte-1 col">
+                        <span class="description">Did file his/her own return?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-6__file-own-return" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-6__file-own-return" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-item" id="table-7">
+            <header class="table-header">
+                <h4 class="description">Dependents 4:</h4>
+            </header>
+
+            <div class="table-body">
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Dependent's Name:</span>
+                        <input type="text">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Social Security Number:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Date of Birth:</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Relationship:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col tempalte-1">
+                        <span class="description">Income (if over $4.400):</span>
+                        <input type="date">
+                    </label>
+
+                    <label class="col tempalte-1">
+                        <span class="description">Number of Months Resided in Home:</span>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="tempalte-1 col">
+                        <span class="description">Was a full-time college student?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-7__full-time-college-student" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-7__full-time-college-student" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+
+                    <div class="tempalte-1 col">
+                        <span class="description">Did file his/her own return?:</span>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-7__file-own-return" value="Single" />
+                            <span class="description">Yes</span>
+                        </label>
+
+                        <label class="tempalte-1">
+                            <input type="radio" name="table-7__file-own-return" value="Married" />
+                            <span class="description">No</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

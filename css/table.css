@@ -1,0 +1,93 @@
+:root {
+    --bg-default: #000;
+    --bg-secondary: #fff;
+
+    --color-default: #fff;
+    --color-secondary: #000;
+
+    --bodre-default: 1px solid #000;
+    --bodre-secondary: 1px solid #cecece;
+}
+
+
+/********************
+* Start: Section Table 
+********************/
+
+.section-table {
+    width: 100%;
+}
+
+.section-table__title {
+    margin-bottom: 30px;
+}
+
+.section-table input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: whitesmoke;
+    padding: 3px 10px;
+}
+
+.section-table .table-item {
+    margin-bottom: 30px;
+}
+
+.section-table .row {
+    display: flex;
+    gap: 30px;
+    padding: 10px 30px;
+    border-bottom: var(--bodre-secondary)
+}
+
+.section-table .row:last-child {
+    border: 0;
+}
+
+.section-table .col {
+    width: 100%;
+}
+
+.section-table .tempalte-1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 10px;
+}
+
+/* Table Header */
+
+.section-table .table-header {
+    border: var(--bodre-default);
+}
+
+.section-table .table-header .title {
+    background: var(--bg-default);
+    color: var(--color-default);
+    padding: 10px 30px;
+}
+
+.section-table .table-header .description {
+    background: var(--bg-secondary);
+    color: var(--color-secondary);
+    padding: 10px 30px;
+}
+
+/* Table Body */
+
+.section-table .table-body {
+    border: var(--bodre-default);
+    border-top: 0;
+}
+
+.section-table .table-body .title {}
+
+.section-table .table-body .description {
+    white-space: nowrap;
+}
+
+
+/********************
+* End: Section Table 
+********************/
