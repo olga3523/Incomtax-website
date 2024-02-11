@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="main-container">
         <header class="section-header">
@@ -16,42 +18,40 @@
                 <a href="">Booking</a>
                 <a href="">Pay Roll</a>
             </nav>
-        
+
             <nav class="contacts-menu">
                 <a href="phone:516-416-4038">516-416-4038</a>
                 <a href="">Sign in</a>
             </nav>
         </header>
 
-    <div class="form-container">
-        <div class="content-wrapper">
-            <form action="">
-                <label for="">
-                    <input placeholder="Name:"  name="name" type="text" autocomplete="off">
-                </label>
-    
-                <label for="">
-                    <input  placeholder="Phone:" name="phone" type="text" autocomplete="off">
-                </label>
+        <section class="section-contacts form-container">
+            <div class="container content-wrapper">
+                <form action="">
+                    <label for="">
+                        <input placeholder="Name:" name="name" type="text">
+                    </label>
 
-                <label for="">
-                    <input  placeholder="Phone:" name="phone" type="text" autocomplete="off">
-                </label>
-    
-                <textarea placeholder="The best day and time to connect you:" name="message" cols="30" rows="8"></textarea>
-                <button class=" btn-default" type="submit">Submit</button>
-            </form>
+                    <label for="">
+                        <input placeholder="Phone:" name="phone" type="text">
+                    </label>
 
-            <div class="text-wrapper">
-                <h1>Description</h1>
-                <p>Personal taxes refer to the financial obligations individuals have to the government based on their income,
-                    assets, and
-                    expenditures. This typically includes federal income tax collected by the IRS, state income taxes (in states
-                    where
-                    applicable), and contributions to Social Security and Medicare.</p>
+                    <label for="">
+                        <input placeholder="Email:" name="email" type="email">
+                    </label>
+
+                    <textarea placeholder="The best day and time to connect you:" name="message" cols="30"
+                        rows="5"></textarea>
+
+                    <button class=" btn-default" type="submit">Submit</button>
+                </form>
+
+                <div class="text-wrapper">
+                    <h3 class="title">Leave a request for free</h3>
+                    <p class="description">Our manager will contact you</p>
+                </div>
             </div>
-    
-        </div>
+        </section>
 
         <footer class="footer">
             <span>About Us</span>
@@ -68,6 +68,6 @@
                 Sunday: 10am to 7pm
             </span>
         </footer>
-     </div>   
 </body>
+
 </html>
