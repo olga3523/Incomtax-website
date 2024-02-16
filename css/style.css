@@ -130,7 +130,7 @@ a {
 
 .footer span {
     padding: 20px;
-    color: #000;
+    
 }
 
 /* End:Section Footer*/
@@ -141,10 +141,42 @@ a {
     object-fit: cover;
 }
 
+.card-item .img-wrapper iframe {
+    width: 100%;
+    height: 260px;
+    
+}
+
 /* End Section:PersonalTax */
+
+/* Start Section:Business Tax*/
+.section-business-taxes {
+    background-color: #000;
+    color:whitesmoke;
+    height:86vh;
+    width: 100%;
+
+}
+.section-business-taxes .navigation {
+    display:flex;
+    flex-direction: column;
+}
+
+.section-business-taxes .navigation a {
+    font-size: 40px;
+    border-bottom: 2px solid #F99B0F;
+    width:80%;
+
+   
+
+}
+/* End Section:Business Tax*/
 
 
 /*Start form*/
+.section-contacts {
+    height:86vh;
+}
 
 .main-container .form-container {
     background-color: #000;
@@ -154,8 +186,6 @@ a {
     padding: 60px 0;
     display: flex;
     gap: 30px;
-    /* flex-direction: column-reverse; */
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -176,6 +206,21 @@ a {
     padding: 8px 15px;
 }
 
+form .custom-input {
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    color:#757575;
+    padding-left: 15px;
+    border-radius: 4px;
+
+}
+
+form .custom-input span {
+    white-space: nowrap;
+
+}
+
 .section-contacts form input::placeholder,
 .section-contacts form textarea::placeholder {
     font-size: 16px;
@@ -184,7 +229,7 @@ a {
 .section-contacts .btn-default {
     padding: 15px 60px;
     color: inherit;
-    background: #F99B0F;
+    background: #fa9c0f;
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 30px;
@@ -193,23 +238,42 @@ a {
     cursor: pointer;
 }
 
-.text-wrapper {
+.section-contacts .text-wrapper {
     margin-left: 40px;
     color: whitesmoke;
-    text-align: center;
-
 }
 
-.text-wrapper .title {
-    font-size: 32px;
+
+.section-contacts .text-wrapper .title p {
+    font-weight: 300;
     text-transform: uppercase;
-    font-weight: normal;
-    color: #F99B0F;
-    max-width: 500px;
+    font-size: 18px;
+    color:#fa9c0f;
+    letter-spacing: 3px;
 }
 
-.text-wrapper .description {
-    font-size: 30px;
+.section-contacts .text-wrapper .title h3 {
+    font-size: 41px;
+    line-height: 1.4em;
+    color: #e99415;
+}
+
+.section-contacts .text-wrapper .contact-item {
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-top: 30px;
+    
+}
+
+.section-contacts .text-wrapper .img-wrapper{
+    height: 35px;
+    width: 35px;
+    
+}
+
+.section-contacts .content-body h4 {
+    margin-bottom: 10px;
 }
 
 
