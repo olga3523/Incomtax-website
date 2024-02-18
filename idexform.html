@@ -25,26 +25,29 @@
             </nav>
         </header>
 
-        <section class="section-contacts form-container">
+        <section class="section-contacts form-container" id="section-contacts">
             <div class="container content-wrapper">
                 <form action="">
                     <label for="">
-                        <input placeholder="Name:" name="name" type="text">
+                        <input placeholder="Name:" id="name" name="name" type="text">
                     </label>
 
                     <label for="">
-                        <input placeholder="Phone:" name="phone" type="text">
+                        <input placeholder="Phone:" id="phone" name="phone" type="text">
+                        <span>Only digits +1 (XXX) XXXX-XXX</span>
                     </label>
 
                     <label for="">
-                        <input placeholder="Email:" name="email" type="email">
+                        <input placeholder="Email:" id="email" name="email" type="email">
                     </label>
+
                     <label for="" class="custom-input">
                         <span>Choose the date:</span>
-                        <input type="date">
-                        <input type="time">
+                        <input type="date" id="date">
+                        <input type="time" id="time">
                     </label>
-                    <textarea placeholder="More questions let us now here:" name="message" cols="30"
+
+                    <textarea placeholder="More questions let us now here:" id="message" name="message" cols="30"
                         rows="5"></textarea>
 
                     <button class=" btn-default" type="submit">Submit</button>
@@ -53,7 +56,7 @@
                 <div class="text-wrapper">
                     <div class="title">
                         <p>Have a Question?</p>
-                        <h3 >Talk with Us!</h3>
+                        <h3>Talk with Us!</h3>
                     </div>
 
                     <nav class="contacts-wrapper">
@@ -72,12 +75,12 @@
                             <div class="img-wrapper">
                                 <img src="img/mobile-phone.svg" alt="alt">
                             </div>
-                        
+
                             <div class="content-body">
                                 <h4>Call Us</h4>
                                 <p>516-416-4038</p>
                             </div>
-                        </a>                        
+                        </a>
                     </nav>
                 </div>
             </div>
@@ -98,6 +101,9 @@
                 Sunday: 10am to 7pm
             </span>
         </footer>
+
+
+        <script src="js/formValidate.js"></script>
 </body>
 
 </html>
