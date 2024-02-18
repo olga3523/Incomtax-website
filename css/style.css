@@ -120,10 +120,10 @@ a {
 
 /* Start:Section Footer*/
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer-navigation {
+    display:flex;
+
+}
     background-color: rgb(204, 198, 198);
 
 }
@@ -153,7 +153,7 @@ a {
 .section-business-taxes {
     background-color: #000;
     color:whitesmoke;
-    height:86vh;
+    height:100%;
     width: 100%;
 
 }
@@ -165,6 +165,7 @@ a {
     padding:30px 0 12px 0;
     margin-bottom: 50px;
 }
+
 .section-business-taxes h4 {
     font-size: 32px ;
     margin-bottom: 15px;
@@ -172,11 +173,10 @@ a {
 
 .section-business-taxes .navigation {
     display: grid;
-    gap:60px;
+    gap:30px;
     grid-template-columns: 1fr 1fr ;
 
 }
-
 
 .section-business-taxes .section-wrapper.card {
     max-width: 756px;
@@ -205,6 +205,22 @@ a {
     background-color: rgba(0,0,0, 0.9);
     padding: 16px 26px;
 }
+
+.section-business-taxes .text-wrapper .businesstax-btn {
+    background-color: #F99B0F;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+/* .text-wrapper ::after { 
+    background-color: #e99415;
+    width: 40px;
+    content:url(/img/arrow-9195.png);
+    /* background-color: #757575; 
+    position: absolute;
+    left:0 ;
+}*/
 
 
 /* End Section:Business Tax*/
@@ -312,7 +328,4 @@ form .custom-input span {
 .section-contacts .content-body h4 {
     margin-bottom: 10px;
 }
-
-
-
 /*End form*/
